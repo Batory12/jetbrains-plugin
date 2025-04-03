@@ -17,8 +17,9 @@ intellij {
     version.set("2023.2.5")
     type.set("IC") // Target IDE Platform
 
-    plugins.set(listOf(/* Plugin Dependencies */))
+    plugins.set(listOf("Git4Idea"))
 }
+
 
 tasks {
     // Set the JVM compatibility versions
