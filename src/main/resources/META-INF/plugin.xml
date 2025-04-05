@@ -25,4 +25,10 @@
     <extensions defaultExtensionNs="com.intellij">
 
     </extensions>
+
+    <actions>
+        <action id="RenameCommit" class="com.batory.renamecommitplugin.RenameCommitAction" text="Rename Current Commit" description="Rename the most recent commit's message">
+            <add-to-group group-id="VcsGroups"/>
+        </action>
+    </actions>
 </idea-plugin>
